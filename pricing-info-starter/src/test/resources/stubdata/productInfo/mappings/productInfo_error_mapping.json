@@ -1,0 +1,22 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "urlPath": "/ms-product-info/getProductId/1234567",
+        "headers": {
+          "correlation-id": {
+            "matches": ".+"
+          }
+        }
+      },
+      "response": {
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 400,
+        "bodyFileName": "productInfo_getProductId_1234567_400.json"
+      }
+    }
+  ]
+}

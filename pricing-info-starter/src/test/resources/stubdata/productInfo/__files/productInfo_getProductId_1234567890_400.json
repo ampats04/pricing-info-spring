@@ -1,0 +1,12 @@
+{
+  "errorCode": 400,
+  "errorMessage": "Invalid input",
+  "errorDetails": {
+    "error" : [
+      {
+        "field": "productId",
+        "errorMessage": "must match <regex pattern>"
+      }
+    ]
+  }
+}

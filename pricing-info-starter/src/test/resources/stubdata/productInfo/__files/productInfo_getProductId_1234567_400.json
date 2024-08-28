@@ -1,0 +1,5 @@
+{
+  "errorCode": 400,
+  "errorMessage": "Product code 1234567 not found.",
+  "errorDetails": {}
+}
